@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #ff7f50; /* Orange */
+  --secondary-color: #ffffff; /* White */
+  --font-family: 'Montserrat', sans-serif; /* Font family */
+}
+
+html, body {
+  height: 100%;
+  background: radial-gradient(1200px 800px at 10% 10%, #1a1a1a 0%, #0d0d0d 60%, #000 100%);
+  color: #fff;
+  font-family: var(--font-family);
+}
